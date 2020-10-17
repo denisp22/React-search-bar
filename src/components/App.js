@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar';
+import UserForm from './UserForm';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
           <SearchBar/>
         </div>
 
-        <div className="col"></div>
+        <div className="col">
+          <UserForm/>
+        </div>
       </div>
     </div>
   );
